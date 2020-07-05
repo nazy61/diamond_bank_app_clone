@@ -179,7 +179,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:padding="10dp"
             android:columnCount="2"
             android:rowCount="4"
             android:alignmentMode="alignMargins"
@@ -191,6 +190,18 @@
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="1dp"
+                    android:background="#b2beb5"
+                    android:layout_height="fill_parent"/>
                 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -226,6 +237,18 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
 
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="1dp"
+                    android:background="#b2beb5"
+                    android:layout_height="fill_parent"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -260,6 +283,18 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
 
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="1dp"
+                    android:background="#b2beb5"
+                    android:layout_height="fill_parent"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -290,6 +325,12 @@
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
+
+                <View
+                    android:layout_alignParentEnd="true"
+                    android:layout_width="1dp"
+                    android:background="#b2beb5"
+                    android:layout_height="fill_parent"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -325,6 +366,12 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
 
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -359,6 +406,12 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
 
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -392,6 +445,12 @@
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1">
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1dp"
+                    android:background="#b2beb5"
+                    android:layout_width="fill_parent"/>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
